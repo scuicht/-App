@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    height: 0px;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+ul li{
+    list-style: none;
+}
+.top{
+    width: 100%;
+    height: 2.2rem;
+    background-color: #1448AE;
+}
+.top-xiao{
+    width: 90%;
+    height: 2.2rem;
+    /*background-color: rgb(41, 146, 153);*/
+    margin: 0 auto;
+}
+.top-shang{
+    width: 65%;
+    /* float: left; */
+    height: 1rem;
+   padding-top: 0.2rem;
+    /* background-color: aliceblue; */
+
+}
+.top-shang i{
+   font-size: 0.5rem;
+   color: white;
+   float: left;
+   font-weight: 900;
+}
+.top-shang h1{
+    font-size: 0.38rem;
+    float: right;
+    color: white;
+    font-weight: 400;
+}
+.top-kuang{
+    width: 100%;
+    height: 1rem;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+.top-kuang0{
+    width: 100%;
+    height: 0.6rem;
+    border-radius: .6667rem /* 50px -> .6667rem */;
+    background-color: #1448AE;
+    border: solid 0.03rem white;
+}
+.top-kuang0 .icon-sousuo{
+    font-size: 0.4rem;
+    color: white;
+    font-weight: 800;
+    line-height: 0.6rem;
+    margin-left: 0.2rem;
+}
+.top-kuang0 input{
+    width: 5.5rem;
+    height: 0.4rem;
+    
+    background-color: #1448AE;
+    
+
+}
+
+.cent{
+    width: 100%;
+    height: 14rem;
+    /*background-color: cadetblue;*/
+    margin-top: 0.2rem;
+
+}
+.cent0{
+    width: 98%;
+    height: 14rem;
+    /*background-color: rgb(152, 234, 236);*/
+    margin: 0 auto;
+    float: left;
+    
+}
+.cent-fl{
+    float: left;
+    width: 17%;
+    height: 14rem;
+    background-color: #F4F4F4;
+
+    /* position:  fixed;
+	bottom:  0;
+	left: 0 ;
+    top: 2.4rem; */
+
+   
+
+}
+.ent-biao{
+    width: 100%;
+    height: 1.7rem;
+    background-color: #F4F4F4;
+    margin-bottom: 0.2rem;
+    
+}
+.ent-biao a{
+	text-decoration: none;
+	color: gray;
+	text-align: center;
+}
+.ent-biao h1{
+	font-size: 0.35rem;
+	font-weight: 300;
+}
+.ent-biao i{
+    font-size: 0.7rem;
+    color: gray;
+    font-weight: 300;
+    margin:0 auto;
+    padding-top: .2rem;
+    display: block;
+    width: 0.8rem;
+}
+
+.cent-ri{
+    float: right;
+    width: 82%;
+    height: 14rem;
+    /*background-color: rgb(155, 180, 202);*/
+}
+.dd{
+    width: 100%;
+    height: 3rem;
+    /*background-color: rgb(255, 255, 255);*/
+    margin-bottom: 0.2rem;
+    
+
+}
+.dd-fl{
+    width: 49%;
+    height: 3rem;
+    /*background-color: rgb(163, 103, 103);*/
+    margin-bottom: 0.2rem;
+    float: left;
+    border: solid 0.01rem rgb(197, 195, 195);
+}
+.aaa{
+    background-color: white;
+    border-left: solid 0.1rem rgb(236, 222, 22);
+}
+.aaa a .iconfont{
+	color: #0086B3;
+}
+.aaa h1{
+	color: #0086B3;
+}
+
+.dd-ri{
+    width: 49%;
+    height: 3rem;
+    /*background-color: rgb(110, 39, 39);*/
+    margin-bottom: 0.2rem;
+    float: right;
+    border: solid 0.01rem rgb(197, 195, 195);
+}
+.dd img{
+	width: 100%;
+    height: 2.25rem;
+}
+.dd h1{
+	font-size: 0.28rem;
+	color: #000000;
+	text-align:  center;
+	line-height: 0.75rem;
+	font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lieb{
+	width: 100%;
+	height: 1.1rem;
+	background-color: #EDEDED;
+	position:  fixed;
+	bottom:  0;
+	left: 0 ;
+}
+
+
+.liebi{
+	width: 25%;
+	height: 1rem;
+}
+.liebi i{
+	
+	font-size: 0.6rem;
+	color: gray;
+	display: block;
+	text-align: center;
+    font-weight: 500;
+}
+.liebi h1{
+	font-size: 0.25rem;
+	color: gray;
+	text-align: center;
+	line-height: 0.4rem;
+	font-weight: 500;
+}
+.fff .iconfont {
+	color: #19B2D9;
+}
+.fff h1 {
+	color: #19B2D9;
+}
