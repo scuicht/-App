@@ -4,12 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/app.css">
+<link rel="stylesheet" href="../css/xiangqing.css">
     <script src="../js/rem.js"></script>
     <script src="../js/zepto.js"></script>
     <title>Document</title>
+    <style>
+        .tab{
+            width: 33.3%;
+            height: 1.2rem;
+            background-color: white;
+            float: left;
+            line-height: 1.2REM;
+            text-align: center;
+            font-size: .3rem;
+            
+        }
+        .active{
+            display: none;
+        }
+        .list{
+            width: 100%;
+            height: 8rem;
+            float: left;
+      
+            position: absolute;
+        }
+        .yss{
+    border-bottom: 3px solid rgb(214, 112, 17);
+    color: aqua;
+}
+.tab2{
+    margin-top: .1rem;
+}
+    </style>
 </head>
-<body>
-    APEX  apex  apex  APEX  eeee
+<body style="background: #F4F4F4;">
+   <div class="head">
+       <img src="../img/images/2989959_1265866190054_1024x1024it.jpg"  style="background: scroll: 0.5rem; width: 100%; float: left;" alt="">
+       
+<div class="WZ" style="width: 90%; margin-left: 5%; height: 2.2rem; float: left;">
+<h3>海南三亚5日4晚半自助游（5钻）【壕减3000】喜来登品牌海景房</h3>  
+<img src="../img/images/矢量智能对象-副本-4.jpg" style="margin-top: .2rem;" alt="">  
+<p><span style="font-size: .4rem; color: orange;">￥2810 <span style="font-size: .2rem; color: dimgray;">/人起</span></span></p>
+</div>
+<div class="org" >
+
+
+<div class="org1">
+   <div style="margin-top: .5rem; margin-left: .4rem; width: .7rem; border-radius: 5px; color: red; border: 1px solid red;">
+立减
+   </div>
+   <div style="margin-top: .4rem; margin-left: .4rem; width: .7rem;  border-radius: 5px; background-color: red; color: beige;">
+    优惠
+   </div>
+</div>
+
+
+<div class="org2">
+    <ul style="margin-top: .2rem;">
+        <li>多人优惠，2人起立减200元、单</li>
+        <li>【提前5天预定，5成人，优惠300、单】 3/01-4/30</li>
+        <li>勾搭去旅游限时优惠券</li>
+        <li>【攻略专享】旅游优惠券</li>
+    </ul>
+</div>    
+
+</div>
+       
+<div class="wzz">
+    <h3 style="margin-top: .2rem;"><span style=" color: orange;">4.9</span>分点评 丨 <span style="color: orange;">1126</span>人出游</p>
+   <div class="wzz1" style="margin-top: .2rem;">
+    <span style="border-radius: 6px; background: gray;">导游讲解4.8分</span>
+    <span style="border-radius: 6px; background: gray;">导游讲解4.8分</span>
+    <p style="margin-top: .1rem;">
+           <span style="border-radius: 6px; background: gray;">导游讲解4.8分</span>
+    <span style="border-radius: 6px; background: gray;">导游讲解4.8分</span> 
+</p>
+    <hr style="margin-top: .3rem; color: gray;">
+<div class="wzz2" style="font-size: .3rem;">
+    <p style="margin-top: .2rem;">思*****209 <span style="float: right;">2016-12-01</span></p>
+    <p>凌晨到达的，住宿很满意，导游十分负责任。这次旅行</p>
+    <p>还是很尽兴的，三亚很美，蜈支洲岛很仙，王导还自掏</p>
+    <p>腰包供应水和吃水果，感谢！</p>
+</div>
+
+
+
+   </div>
+   
+
+</div>
+
+
+   </div>
+
+   <div class="foot" style="margin-top: .2rem;">
+    
+    <div class="tab1" style=" width: 100%; height: 1.2rem;">
+
+   
+     <div class="tab">
+产品特色
+     </div>
+     <div class="tab">
+行程详情
+     </div>
+     <div class="tab">
+预定须知
+     </div>
+
+     
+     </div>
+
+     <div class="tab2">
+      <div class="list" style="z-index: 1;">
+            <img src="../img/images/05-2-旅游详情_02.jpg" style="width: 100%; float: left;" alt="">
+                     </div> 
+ <div class="list">
+           <img src="../img/images/images/05-2-旅游详情_02.png" style="width: 100%; float: left;"  alt="">
+         </div>
+         <div class="list">
+            <img src="../img/images/images/05-2-旅游详情_03.jpg" style="width: 100%; float: left;"  alt="">
+        </div>    
+       
+     </div>
+
+
+
+
+   </div>
+
+
+   <script>
+    
+
+     $('.tab').click(function () {
+     $(this).addClass('yss').siblings().removeClass('yss')
+    
+	var idx = $(this).index()
+   
+	console.log()
+	$('.list').eq(idx).show().siblings().hide()
+
+})
+   </script>
 </body>
-</html>                                     
+</html>                                             
