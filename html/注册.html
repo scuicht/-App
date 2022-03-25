@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/注册.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/zepto.js"></script>
+    <script src="../js/zhuce.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="top">
+        <img src="../img/hx-09.jpg" alt="">
+        <div class="wz">
+            注册
+        </div>
+    </div>
+    <!-- 第一部分 -->
+    <div class="logon">
+        <div class="country">
+            <p>国家/地区</p><input type="text" placeholder="中国大陆 86">
+        </div>
+        <div class="phone">
+            <p>手机号</p><input type="text" id="phone" maxlength="11" onchange="checkPhone(this.value)" placeholder="常用手机号">
+            <img src="../img/hx-10.jpg" alt="">
+        </div>
+        <div class="validate">
+            <p>验证码</p><input type="text" placeholder="短信验证码">
+        </div>
+        <div class="submit">
+            <p>设置密码</p><input type="password" id="pwd" placeholder="6~12位大小写字母/数字">
+            <div class="pic"><img src="../img/hx-10.jpg" alt=""></div>
+            <div class="pic1"><img src="../img/hx-11.jpg" alt=""></div>
+        </div>
+        <div class="btn">
+            <button>注册</button>
+        </div>
+    </div>
+</body>
+</html>
